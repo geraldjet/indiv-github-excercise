@@ -6,10 +6,14 @@ class Main{
         Scanner sc = new Scanner(System.in);
         System.out.println("Type 1 to Sort Integer OR 2 to Sort String");
         int n = sc.nextInt();
-        if(n == 1)
-        sortInt();
-        else if(n == 2)
-        sortString();
+        if(n == 1){
+            System.out.println("SORT INTEGER");
+            sortInt();
+        }
+        else if(n == 2){
+            System.out.println("SORT STRING");
+            sortString();
+        }
 
         }
 
