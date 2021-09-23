@@ -5,7 +5,7 @@ class Main{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Type 1 to Sort Integer OR 2 to Sort String");
-        int n = in.nextInt();
+        int n = sc.nextInt();
         if(n == 1)
         sortInt();
         else if(n == 2)
